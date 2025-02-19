@@ -1,7 +1,6 @@
 // src/components/BookCard.jsx
-
 import React from "react";
-import "./BookCard.css"; // Import the CSS for styling
+import "./BookCard.css";
 
 const BookCard = ({ book }) => {
   const { title, author, description, coverImage } = book;
